@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <main>
+        <section class="grid grid-cols-4 gap-5 w-9/12 mx-auto mt-5">
+            <div>
+                <img class="rounded-lg" src="/images/apple.jpg" alt="">
+                <h4 class="bg-green-300 hover:bg-green-500 mt-5 p-2 rounded-lg font-semibold">Price: 400</h4>
+            </div>
+            <div>
+                <img class="rounded-lg" src="/images/banana2.jpg" alt="">
+                <h4 class="bg-green-300 hover:bg-green-500 mt-5 rounded-lg p-2 font-semibold">Price: 200</h4>
+            </div>
+        </section>
+
+
+
+
+        <section class="w-9/12 mx-auto">
+            <div>
+        
+                <h3>Price</h3>
+                <input id="price-Amount" class=" pl-2 border-red-600 border-2 rounded mt-5" type="text" placeholder="Price">
+                <h3>Discount</h3>
+                <input id="discount" class=" pl-2 border-red-600 border-2 rounded mt-5" type="text" placeholder="Discount %">
+                <h3 class="mt-5">Total price</h3>
+                <h2>$ <span id="output">00</span></h2>
+                <br>
+                <button id="btn-submit" class="bg-red-600
+                hover:bg-green-500 rounded-lg font-bold text-white p-5">submit</button>
+                
+                
+            </div>
+        </section>
+    </main>
+   
+
+    <script src="js/file.js"></script>
+</body>
+</html>
